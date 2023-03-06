@@ -1,12 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div id="root"></div>
+  <div class="calculator">
+    <input type="text" class="input" id="input" readonly>
+    <div class="buttons">
+      <button class="operator" onclick="clearInput()">C</button>
+      <button class="operator" onclick="backspace()">&lt;-</button>
+      <button class="operator" onclick="append('+')">+</button>
+      <button class="operator" onclick="append('-')">-</button>
+      <button onclick="append('7')">7</button>
+      <button onclick="append('8')">8</button>
+      <button onclick="append('9')">9</button>
+      <button class="operator" onclick="append('*')">x</button>
+      <button onclick="append('4')">4</button>
+      <button onclick="append('5')">5</button>
+      <button onclick="append('6')">6</button>
+      <button class="operator" onclick="append('/')">/</button>
+      <button onclick="append('1')">1</button>
+      <button onclick="append('2')">2</button>
+      <button onclick="append('3')">3</button>
+      <button onclick="append('.')">.</button>
+      <button onclick="append('0')">0</button>
+      <button class="operator" onclick="calculate()">=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>

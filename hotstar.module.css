@@ -1,0 +1,42 @@
+#maindiv ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#maindiv ul li a{
+    text-decoration: none;
+    color: black;
+}
+#maindiv ul li{
+    list-style: none;
+}
+div{
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    background-color: ivory;
+}
+button{
+color: white;
+height: 35px;
+border: transparent;
+border-radius: 8px;
+}
+
+#button1{
+    background-color: black;
+}
+#button2{
+    background-color: pink;
+}
+#button3{
+    background-color: yellow;
+}
+#button4{
+    background-color: green;
+}
+
+img{
+    height: 75px;
+    width: 75px;
+}

@@ -1,0 +1,28 @@
+#main ul{
+display: flex;
+justify-content: space-around;
+text-align: center;
+}
+img{
+    height: 30px;
+    width: 100px;
+}
+#main ul li a{
+    text-decoration: none;
+    
+}
+#main ul li{
+    list-style: none;
+}
+div{
+    height: 75px;
+    background-color: bisque;
+    padding-top: 5px;
+}
+button{
+    background-color: aquamarine;
+    border-style: none;
+    border-radius: 10px;
+    height: 20px;
+    width: 60px;
+}

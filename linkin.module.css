@@ -1,0 +1,35 @@
+#maindiv ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center
+}
+#maindiv ul li a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 0px;
+    
+    
+}
+#maindiv ul li{
+    list-style: none;
+    text-align: right;
+}
+img{
+    height: 30px;
+    width: 70px;
+    background-position: left;
+}
+div{
+    /* border: 2px solid black; */
+    height: 75px;
+    background-color: bisque;
+    text-align: center;
+    padding-top: 5px;
+}
+button{
+    width: 60px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: white;
+   background-color: lightpink;
+   border-radius: 8px;
+}
